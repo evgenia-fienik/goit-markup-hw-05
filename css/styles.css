@@ -454,7 +454,7 @@ transform: translateY(0);
         max-width:264px;
 }
 
-.footer-container-wrap{
+.footer-container{
     display: flex;
     align-items: baseline,
 }
