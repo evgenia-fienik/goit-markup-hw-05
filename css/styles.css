@@ -353,6 +353,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .portfolio-subtitle {
     margin-bottom: 8px;
+    
 }
 
 .portfolio-list {
@@ -372,7 +373,7 @@ transform: translateY(0);
 }
 
 
-.portfolio-itm :hover{
+.portfolio-itm:hover{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -380,7 +381,7 @@ transform: translateY(0);
 }
 
 .features-itm-text {
-    padding-bottom: 32px;
+  
  }
  .portfolio-cover-wrap{
     position: relative;
@@ -478,11 +479,11 @@ gap: 16px;
 
 .footer-contact-link:hover,
 .footer-contact-link:focus{
-    background-color: #31d0aa;
+    background-color: #31d0aa;;
 }
 
 .footer-contact-link{
-    width: 40px;
+        width: 40px;
         height: 40px;
         background-color: #4d5ae5;
         border-radius: 50%;
