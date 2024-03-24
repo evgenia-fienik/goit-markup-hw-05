@@ -509,24 +509,29 @@ transform: translateY(0);
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: transparent;
-        padding-left: 16px;  
+        padding-left: 16px; 
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #ffffff;
 }
 
 .footer-input::placeholder{
     font-size: 12px;
-        line-height: 2;
-        letter-spacing: 0.04em;
-        color: #fff;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .footer-subscribe-btn{
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background: #4d5ae5; 
     border: none;
@@ -534,6 +539,7 @@ transform: translateY(0);
     gap: 16px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .footer-form{
@@ -545,6 +551,7 @@ transform: translateY(0);
 
 .footer-icon-btn{
     fill: #fff;
+    margin-left: 16px;
 }
 /* ======================================== */
 /* ===================MODAL================ */
